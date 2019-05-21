@@ -1,0 +1,109 @@
+<?php
+include('server.php');
+?>
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+.header{
+width:30%;
+margin:50px auto 0px;
+color:black;
+background-color: rgba(0, 255, 0, 0.1);
+text-align:center;
+border:1px solid rgba(0, 255, 0, 0.1);
+border-radius:10px 10px 0px 0px;
+padding:20px;
+
+
+
+
+}
+body{
+	background-image: url(bck.jpg);
+}
+form{
+width:30%;
+margin:0px auto;
+padding:20px;
+border:1px solid rgba(0,255,0,0.1);
+background:white;
+border-radius:0px 0px 10px 10px;
+}
+.input-group{
+margin:10px 0px 10px 0px;
+}
+.input-group label{
+display:block;
+text-align:left;
+margin:3px;
+}
+.input-group input{
+height:30px;
+width:93%;
+padding:5px 10px;
+font-size:16px;
+border-radius:5px;
+border:1px solid gray;
+}
+.btn{
+padding:10px;
+font-size:15px;
+color:black;
+background:rgba(0, 255, 0, 0.1);
+border-radius:5px;
+
+}
+p{
+
+}
+p a{
+color:green;
+text-decoration:none;
+
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+	<h2>Register</h2>
+</div>
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>"> 
+<!-- paraqit gabimet-->
+<?php include('gabimet.php')?>
+<div class="input-group">
+<label>Username</label>
+<input type="text" name="username" value="<?php echo $perdoruesi?>"/>
+</div>
+<div class="input-group">
+<label>Firstname</label>
+<input type="text" name="firstname" value="<?php echo $emri?>"/>
+</div>
+<div class="input-group">
+<label>Lastname</label>
+<input type="text" name="lastname" value="<?php echo $mbiemri?>"/>
+</div>
+<div class="input-group">
+<label>Email</label>
+<input type="text" name="email" value="<?php echo $imella?>"/>
+</div>
+<div class="input-group">
+<label>Password</label>
+<input type="password" name="password" value="<?php echo $fjalkalimi?>"/>
+</div>
+<div class="input-group"> 
+<label>Confirm Password</label>
+<input type="password" name="confirmP" value="<?php echo $fjalkalimi1?>"/>
+</div>
+<div class="input-group">
+<button type="submit" name="register" class="btn">Register</button>
+</div>
+<p>
+Already a member?<a href="login.php">Log in</a>
+</p>
+</form>
+
+</body>
+</html>
