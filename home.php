@@ -22,3 +22,23 @@ include('header.php');
 			<img src="foto/barcelona2.jpg">
 		</div>
 		</div>
+		
+		<div class="anadjatht">
+		<div class="anadjathtnalt">
+			<div class="anadjathtnalt1">
+				<div>
+					<img src="foto/barcelona1.jpg">
+				</div>
+				<div>
+					<img src="foto/barcelonahumb.jpg">
+				</div>
+				<div>
+					<img src="foto/barcelona3.jpg">
+				</div>
+				<div>
+					<img src="foto/barcelona4.jpg">
+				</div>
+			 	
+			</div>
+
+		</div>
