@@ -65,3 +65,43 @@ duke triumfuar me rezultat 121-116.
 
 	</div>
 </div>
+
+
+<div class="RreshtiLajmev">
+	<div class="Lajmi1">
+		<h3>Roma - Real Madrid: Formacionet e mundshme</h3>
+		<p>Një ndeshje e veçantë, një sfidë vendimtare, 
+			një përballje që e <br> ofron vetëm Liga e Kampionëve.
+				Po flasim për ndeshjen Roma<br>-Real Madrid 
+			në Olimpico e vlefshme <br> për pozitën e parë në Grupin G.
+		</p>
+		<div class="imazhi">
+			<img src="foto/roma.jpg">
+		</div>		
+	</div>
+	<div class="Lajmi2">
+		<h3>Karen Khachanov fitoi turneun Paris Masters</h3>
+		<p>Karen Khachanov e ka nënshtruar Novak Djokovicin  për ta <br> 
+			fituar titullin e parë ‘Masters 1000’.
+            Tenisti rus fitoi me  rezultat <br> 2-0  në sete (7-5, 6-4)
+            duke i dhënë fund serisë prej 22 ndeshjes <br>pa humbje të serbit.
+		</p>
+		<div class="imazhi">
+			<img src="foto/tenis1.jpg">
+		</div>
+	</div>
+	<div class="Lajmi3">
+		<h3 class="gjel">LA Lakers mposhtet në shtëpi nga Orlando</h3>
+		<p>Los Angelea Lakers ka pësuar humbjen e tetë në këtë edicion <br> në NBA.
+Skuadra nga Kalifornia është mposhtur si vendas nga <br> Orlando Magic  me katër pikë diferencë 108:104.<br>
+Fitorja e Orlandos nga Lakers ishte e 10 këtë edicion.
+		</p>
+		<div class="imazhi">
+			<img src="foto/lakers.jpg">
+		</div>
+	</div>
+
+</div>
+<?php
+include('footer.php');
+?>
