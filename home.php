@@ -22,7 +22,7 @@ include('header.php');
 			<img src="foto/barcelona2.jpg">
 		</div>
 		</div>
-		
+
 		<div class="anadjatht">
 		<div class="anadjathtnalt">
 			<div class="anadjathtnalt1">
@@ -42,3 +42,26 @@ include('header.php');
 			</div>
 
 		</div>
+
+
+			<div class="anadjathtposht">
+			<div class="drejtekendeshi">
+				<div class="drM">
+				<h4>Pas kohës shtesë , Clippersat <br>të fortë për Warriors</h4>
+				<p>Mbrëmë janë zhvilluar nëntë ndeshje <br> në ligën më të fortë <br> të basketbollit në botë.
+Kampioni në fuqi i NBA-s,<br> Golden State Warriors kanë pësuar humbje <br> të papritur si mysafirë në Staples Center.<br>
+Los Angeles Clippers   para shikuesve të vetë<br> u treguan më të mirë se ‘luftëtarët’<br>
+duke triumfuar me rezultat 121-116.
+				</p>
+				<button><a href="njupage.html" target="_blank" style="text-decoration:none;color:#95A60A;">Lexo më shumë >></button></a>
+				</div>
+
+				<div class="drD">
+					<img src="foto/nba1.jpg">
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
