@@ -46,6 +46,21 @@ include('header.php');
 		</div>
 		</div>
 
+		<div class="t1-item">
+		<div class="t1-bg" style="background-image:url(foto/celticslogo.jpg)"></div>
+		<div class="t1-year">
+			<p class="f2 heading">CELTICS</p>
+		</div>
+		<div class="t1-content">
+			<h1> Bostoni pëson humbje </h1>
+			<p>  Bostoni bie në pozitën e pestë në Lindje, kurse Lakers ngjiten në pozitën e katërt pas humbjes së
+			 Clippers nga Thunder dhe Lakers gjenden vetëm një fitore larg vendit të parë
+				 </p>
+		</div>
+	</div>
+
+	
+
 
 
 
