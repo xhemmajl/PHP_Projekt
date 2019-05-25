@@ -75,7 +75,22 @@ include('header.php');
 	</section>
 
 
-	
+	<div class="divikryesor">
+
+
+
+		<div class="divik1">
+			<h2>LISTA E KUPAVE</h2>
+			<h5>Kupat e fituara prej vitit 1947-2013</h5>
+			<img src="foto/listakupave.jpg">
+			
+		</div>
+		
+
+		<div class="divik2">
+
+
+			
 
 
 
