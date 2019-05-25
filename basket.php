@@ -90,7 +90,21 @@ include('header.php');
 		<div class="divik2">
 
 
-			
+			<div class="dk21">
+				<h3>Toronto shokon Golden Staten pa Leonardin, edhe Bostoni shënon fitore të madhe falë Irving</h3>
+	 			<p>Toronto Raptors ka shënuar fitoren e parë që nga viti 2004 në parketin e Golden State Warriors pa prezencën e Kaëhi Leonard me rezultat 113-93.
+	 			Në pjesën e dytë epërsia e Torontos shkoi deri në 27 pikë.<span id="dots">...</span><span id="more">
+
+				Më i miri ishte Kyle Loëry me 23 pikë e 12 asistime, kurse Serge Ibaka realizoi 20 pikë e 12 kërcime.
+
+				Ndërkaq, Kevin Durant shënoi 30 pikë, i vetmuar, me Stephen Curryn që dështoi totalisht në këtë takim me vetëm 10 pikë të shënuara.
+				Bostoni shënoi fitore të madhe me rezutlat 130-125 në tokën e Washington Wizards pas një drame të madhe pas vazhdimeve
+
+				Ndërkaq, automatikisht pas humbjes së Golden State është Denver Nuggets që ka kaluar në vendni e parë, me të gjitha skuadrat drei në vendni e parafundit në Perëndim që janë afër njëra-tjetrës për pak ndeshje duke bërë që të gjitha skuadrat pos Phoenixit të kenë gjasa për playoff.<span>
+				</p>
+
+
+				
 
 
 
