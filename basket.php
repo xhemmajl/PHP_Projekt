@@ -164,7 +164,67 @@ include('header.php');
 			
 		</div>
 
+
+		<div class="divik3">
+	 		<div class="dk31">
+	 			<form action="basket.html" method="POST">
+	 			<h4>Votoni per ekipin e juaj te preferuar.</h4>
+	 			<table border="1" bgcolor="" cellpadding="10" style="color:white; margin-left: 20px;">
+	 				<tr>
+	 					<td><center>Golden State Warriors</center></td>
+	 					<td><input type="radio" name="radio"/></td>
+	 				</tr>
+	 				<tr>
+	 					<td><center>San Antonio Spurs</center></td>
+	 					<td><input type="radio" name="radio"/></td>
+	 				</tr>
+	 				<tr>
+	 					<td><center>Boston Celtics</center></td>
+	 					<td><input type="radio" name="radio"/></td>
+	 				</tr>
+	 				<tr>
+	 					<td><center>Los Angelos Lakers</center></td>
+	 					<td><input type="radio" name="radio"/></td>
+	 				</tr>
+	 				<tr>
+	 					<td><center>Philadelphia 76ers</center></td>
+	 					<td><input type="radio" name="radio"/></td>
+	 				</tr>
+	 				<tr>
+	 					<td><center>Cleveland Cavaliers</center></td>
+	 					<td><input type="radio" name="radio"/></td>
+	 				</tr>
+	 				<tr>
+	 					<td><center>Chicago Bulls</center></td>
+	 					<td><input type="radio" name="radio"/></td>
+	 				</tr>
+	 				<tr>
+	 					<td><center>Denver Nuggets</center></td>
+	 					<td><input type="radio" name="radio"/></td>
+	 				</tr>
+	 				<tr>
+	 					<td><center>Miami Heat</center></td>
+	 					<td><input type="radio" name="radio"/></td>
+	 				</tr>
+
+
+	 			</table>
+	 			<button>VOTO!</button>
+	 		</div>
+	
+	 	</div>
+	 	
+	
 		
+		</div>
+		
+
+		
+	</div>
+
+
+
+	
 
 
 
