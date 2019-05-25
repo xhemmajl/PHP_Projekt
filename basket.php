@@ -138,7 +138,33 @@ include('header.php');
 
 
 
+			<div class="dk22">
+				<h3>Fitore të mëdha të LA Lakers dhe Dallasit, Bostoni thyen rekord historik ndaj Chicagos</h3>
+	 			<p>Los Angeles Lakers ka triumfuar në udhëtim te Memphis Grizzlies me rezultat 111-99 duke treguar fuqinë e vet.
+	 			LeBron James ishte më i miri me 20 pikë, tetë kërcime dhe 9 asistime, i ndjekur nga Kyle Kuzma me 20 pikë e nëntë kërcime.
+
+				</p>
+	 			<img src="foto/basket2.jpg">
+	 			
+
+			</div>
+
+			<div class="dk23">
+				<h3>San Antonio vazhdon me fitore, Milwaukee befason Toronton</h3>
+	 			<p>Pas dy humbjeve radhazi, San Antonio Spurs tani është rikthyer tek seria e fitoreve.</p>
+	 			<img src="foto/basket3.jpg">
+			</div>
+
+			<div class="dk24">
+				<h3>Los Angeles Lakers triumfon kundër Miami Heat</h3>
+	 			<p>Mbrëmë janë zhvilluar 11 ndeshje në ligën më të fortë të basketbollit në botë.</p>
+	 			<img src="foto/basket4.jpg">
+			</div>
+
 			
+		</div>
+
+		
 
 
 
