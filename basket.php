@@ -32,7 +32,19 @@ include('header.php');
 		</div>
 	        </div>
 
-	        
+
+	        <div class="t1-item">
+		<div class="t1-bg" style=" background-image:url(foto/warriorslogo.jpg)"></div>
+		<div class="t1-year">
+			<p class="f3 heading">WARRIORS</p>
+		</div>
+		<div class="t1-content">
+			<h1>Golden State me rikthim spektakolar</h1>
+			<p> Golden State Warriors kanë arritur që të rikthejnë rezultatin me seri 13-2 
+				në tre minutat e fundit duke triumfuar në udhëtim te Sacramento Kings me rezultat 130-125.
+				</p>
+		</div>
+		</div>
 
 
 
