@@ -58,8 +58,21 @@ include('header.php');
 				 </p>
 		</div>
 	</div>
+	
+	<div class="t1-item">
+		<div class="t1-bg" style="background-image:url(foto/spurslogo11.jpg)"></div>
+		<div class="t1-year">
+			<p class="f2 heading">SPURS</p>
+		</div>
+		<div class="t1-content">
+			<h1> San Antonio vazhdon me fitore, Milwaukee befason Toronton </h1>
+			<p>Pas dy humbjeve radhazi, San Antonio Spurs tani është rikthyer tek seria e fitoreve.
+				</p>
+		</div>
+	</div>
 
 	
+
 
 
 
