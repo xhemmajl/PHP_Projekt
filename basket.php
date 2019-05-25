@@ -222,9 +222,22 @@ include('header.php');
 		
 	</div>
 
+	<div class="RreshtiLajmev">
+	<div class="Lajmi1">
+		<h3>James Harden 47 pikë në fitoren kundër Jazz</h3>
+		<p>Mbrëmë janë zhvilluar tetë ndeshje në ligën më të fortë të basketbollit në botë.
 
+		   Houston Rockets kanë triumfuar para<br>shikuesve të vetë kundër Utah Jazz me rezultat 102:97.
+		   <br>  <br>
+		</p>
+		<div class="imazhi">
+			<img src="foto/lajmi1foto.jpg">
+		</div>		
+	</div>
 
 	
+
+
 
 
 
