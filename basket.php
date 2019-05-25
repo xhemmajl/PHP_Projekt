@@ -245,7 +245,21 @@ include('header.php');
 			<img src="foto/lajmi2foto.jpg">
 		</div>
 	</div>
-	
+
+	<div class="Lajmi3">
+		<h3 class="gjel">Nuk ndalet Z Mobile Prishtina</h3>
+		<p>Z Mobile Prishtina ka regjistruar fitoren e radhës në Superligën e Kosovës në basketboll, kësaj radhe si mysafir i Rahovecit me rezultat (93-79).
+			 <br>  <br>
+		</p>
+		<div class="imazhi">
+			<img src="foto/lajmi3foto.jpg">
+		</div>
+	</div>
+
+ 	</div>
+
+
+ 	
 
 
 
