@@ -235,6 +235,16 @@ include('header.php');
 		</div>		
 	</div>
 
+	<div class="Lajmi2">
+		<h3>Golden State arrin edhe një fitore</h3>
+		<p>Golden State Warriors kanë triumfuar edhe në një ndeshje në rrugëtimin për të mbrojtur titullin e kampionit të NBA-s.
+			<br>  <br>
+			<br>
+		</p>
+		<div class="imazhi">
+			<img src="foto/lajmi2foto.jpg">
+		</div>
+	</div>
 	
 
 
