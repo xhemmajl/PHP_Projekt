@@ -83,3 +83,31 @@ $mail = new PHPMailer();
                 background: #33ffcc;
                 cursor: pointer;
             }
+            .kyqja input {
+
+                width: 100%;
+				clear:both;
+            }
+			.kyqja .container input{
+			 width:45%;
+			 clear:none;
+			 padding-left:20px;
+			}
+			.kyqja .container{
+			padding-left:40px;
+			}
+
+
+            .button:hover {
+                background: #33ffbb;
+            }
+            .reset:hover {
+                background: #33ffbb;
+            }
+            .kyqja textarea{
+                padding:0 20px 0 10px; }
+
+          
+
+
+        </style>
