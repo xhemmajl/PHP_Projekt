@@ -111,3 +111,34 @@ $mail = new PHPMailer();
 
 
         </style>
+</head>
+
+ <body>
+       
+       <div class="kyqja">
+            <form  name="formkontakti" action="sent_email1.php" method="post">
+                <h1>Na Kontaktoni</h1>
+				<h3>I/E Nderuar,<?= $_SESSION['fname'] ?> <?= $_SESSION['lname'] ?></h2>
+                <fieldset>
+					<legend>Në rast të ndonjë pakënaqësie apo këshille, na shkruani!</legend>
+                    <p>Emaili juaj :<?= $_SESSION['e-mail'] ?></p>
+                    Mesazhi:<br>
+                    <textarea name="mesazhi" style="resize: none; margin-bottom: 10px; width:94%" rows="4" placeholder="Mesazhi juaj..." cols="40"></textarea><br>
+                    <div class="container">
+                    <input type="submit" class="button" value="Dergo">
+                    <input type="reset" class="reset" value="Pastro">
+					</div>
+                    <script src="sent_email.js"></script>
+                </fieldset>
+            </form>
+        </div>
+
+		
+    
+
+<?php
+include('footer.php');
+?>
+    </body>
+	
+</html>
