@@ -243,7 +243,7 @@ padding:10px 20px;
 		<li><a href="home.php">Kryefaqja</a></li>
 		<li><a href="Football.php">Futboll</a></li>
 		<li><a href="basket.php">Basketboll</a></li>
-		<li><a href="sent_email1.php">Contact us</a></li>
-		<li><a href="about.php">About</a></li>
+		<li><a href="sent_email1.php">Na Kontaktoni</a></li>
+		<li><a href="about.php">Rreth nesh</a></li>
 		</ul>
 	</div>
