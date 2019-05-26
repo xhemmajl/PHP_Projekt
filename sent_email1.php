@@ -34,3 +34,11 @@ $mail = new PHPMailer();
    {
 		echo '<script>alert("Emaili juaj është dërguar, ju faleminderit!")</script>';   }
 }
+?>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Na Kontaktoni</title>
+
+        <style>
