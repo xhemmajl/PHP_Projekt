@@ -13,3 +13,11 @@ $mesazhi =$_POST['mesazhi'];
 $_SESSION['mesazhi'] = $mesazhi;
 $mailMsg='<html><body><h3>Përshëndetje'.' '.$name.'  '. $lastname.'</h3><br><hr><h4>Përmbajtja e mesazhit tuaj:</h4><p>'.$mesazhi.'</p><hr><br><p>Faleminderit qe na kontaktuat , ne do mundohemi sa më shpejt të ju kthejm përgjigjje.</p></body></html>';
 require('PHPMailer\PHPMailerAutoload.php');
+$mail = new PHPMailer();
+   $mail ->IsSmtp();
+   $mail ->SMTPDebug = 0;
+   $mail ->SMTPAuth = true;
+   $mail ->SMTPSecure = 'ssl';
+   $mail ->Host = 'smtp.gmail.com';
+   $mail ->Port = '465'; // or 587
+   $mail ->IsHTML(true);
