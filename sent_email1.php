@@ -42,3 +42,24 @@ $mail = new PHPMailer();
         <title>Na Kontaktoni</title>
 
         <style>
+        .kyqja {
+                position: relative;
+                bottom: -10px;
+                background: #fff;
+                border-radius: 5px; 
+                width: 500px;
+                padding: 20px;
+                border-top: 5px solid #00ffcc;
+                margin: 0 auto;
+                color: black;
+            }
+            .kyqja h1 {
+
+                font-size: 18px;
+                text-transform: uppercase;
+                margin-top: 0;
+                margin-bottom: 20px;
+                text-align: center;
+                color: black;
+
+            }
