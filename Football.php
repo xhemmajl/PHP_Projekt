@@ -23,31 +23,31 @@ include('header.php');
 
 
 #myBtn{
-	float:left;
+	float:right;
 }
 #myBtn1{
-	float:left;
+	float:right;
 }
 #myBtn2{
-	float:left;
+	float:right;
 }
 #myBtn3{
-	float:left;
+	float:right;
 }
 #myBtn4{
-	float:left;
+	float:right;
 }
 #myBtn5{
-	float:left;
+	float:right;
 }
 #myBtn6{
-	float:left;
+	float:right;
 }
 #myBtn7{
-	float:left;
+	float:right;
 }
 #myBtn8{
-	float:left;
+	float:right;
 }
 </style>
 <script>
