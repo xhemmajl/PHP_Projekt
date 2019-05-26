@@ -167,7 +167,7 @@ include('header.php');
 
 		<div class="divik3">
 	 		<div class="dk31">
-	 			<form action="basket.html" method="POST">
+	 			<form action="basket.php" method="POST">
 	 			<h4>Votoni per ekipin e juaj te preferuar.</h4>
 	 			<table border="1" bgcolor="" cellpadding="10" style="color:white; margin-left: 20px;">
 	 				<tr>
