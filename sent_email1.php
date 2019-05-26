@@ -63,3 +63,23 @@ $mail = new PHPMailer();
                 color: black;
 
             }
+            .kyqja button:hover {
+                background: #1771ff;
+            }
+            .kyqja input:active, .kyqja input:focus {
+                border: 1px solid #0770ff;
+            }
+            .button{
+
+                width: 40%;
+                height: 40px;
+                background: #33ffcc;
+                cursor: pointer;
+            }
+            .reset{
+
+                width: 40%;
+                height: 40px;
+                background: #33ffcc;
+                cursor: pointer;
+            }
