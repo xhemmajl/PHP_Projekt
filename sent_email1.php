@@ -21,3 +21,8 @@ $mail = new PHPMailer();
    $mail ->Host = 'smtp.gmail.com';
    $mail ->Port = '465'; // or 587
    $mail ->IsHTML(true);
+   $mail ->Username = 'sportpage00@gmail.com';
+   $mail ->Password = 'Kosova123';
+   $mail ->Subject = 'Pershendetje'.' '.$name.' '.$lastname.' '.'.'.'Pranimi i mesazhit tuaj!';
+   $mail ->Body = $mailMsg;
+   $mail ->AddAddress($mailto);
