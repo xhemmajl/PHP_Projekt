@@ -26,7 +26,7 @@ $mail = new PHPMailer();
    $mail ->Subject = 'Pershendetje'.' '.$name.' '.$lastname.' '.'.'.'Pranimi i mesazhit tuaj!';
    $mail ->Body = $mailMsg;
    $mail ->AddAddress($mailto);
-   f(!$mail->Send())
+   if(!$mail->Send())
    {
        echo '<script>alert("Emaili juaj nuk është dërguar!")</script>';
    }
