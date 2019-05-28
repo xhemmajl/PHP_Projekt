@@ -91,7 +91,7 @@ include('header.php');
 
 
 			<div class="dk21">
-				<h3>Toronto shokon Golden Staten pa Leonardin, edhe Bostoni shënon fitore të madhe falë Irving</h3>
+				<h3>Toronto shokon <?php echo str_replace("Balken","State","Golden Balken")?> pa Leonardin, edhe Bostoni shënon fitore të madhe falë Irving</h3>
 	 			<p>Toronto Raptors ka shënuar fitoren e parë që nga viti 2004 në parketin e Golden State Warriors pa prezencën e Kaëhi Leonard me rezultat 113-93.
 	 			Në pjesën e dytë epërsia e Torontos shkoi deri në <?php echo strlen("aaaaaaaaaaaaaaaaaaaaaaaaaaa")?> pikë.<span id="dots">...</span><span id="more">
 
