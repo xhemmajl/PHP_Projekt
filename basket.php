@@ -95,7 +95,17 @@ include('header.php');
 	 			<p>Toronto Raptors ka shënuar fitoren e parë që nga viti 2004 në parketin e Golden State Warriors pa prezencën e Kaëhi Leonard me rezultat 113-93.
 	 			Në pjesën e dytë epërsia e Torontos shkoi deri në <?php echo strlen("aaaaaaaaaaaaaaaaaaaaaaaaaaa")?> pikë.<span id="dots">...</span><span id="more">
 
-				Më i miri ishte Kyle Loëry me 23 pikë e 12 asistime, kurse Serge Ibaka realizoi 20 pikë e 12 kërcime.
+	 			<?php
+	 			$string ='Më i miri abba sbsb fbfb me 23 pikë e 12 asistime, kurse Serge Ibaka realizoi 20 pikë e 12 kërcime.';
+	 			$patterns = array();
+	 			$patterns[0] = '/abba/';
+	 			$patterns[1] = '/sbsb/';
+	 			$patterns[2] = '/fbfb/';
+	 			$nderrimet = array();
+	 			$nderrimet[2] = 'ishte';
+	 			$nderrimet[1] = 'Kyle';
+	 			$nderrimet[0] = 'Loëry';
+	 			echo preg_replace($patterns,$nderrimet,$string);?>
 
 				Ndërkaq, Kevin Durant shënoi 30 pikë, i vetmuar, me Stephen Curryn që dështoi totalisht në këtë takim me vetëm 10 pikë të shënuara.
 				Bostoni shënoi fitore të madhe me rezutlat 130-125 në tokën e Washington Wizards pas një drame të madhe pas vazhdimeve
