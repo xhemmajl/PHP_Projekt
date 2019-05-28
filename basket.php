@@ -25,7 +25,7 @@ include('header.php');
 			<p class="f2 heading">LAKERS</p>
 		</div>
 		<div class="t1-content">
-			<h1>Los Angeles Lakers triumfon kundër Miami Heat </h1>
+			<h1><?php echo substr("Los Angeles Lakers triumfon kundër Miami Heat",12)?> </h1>
 			<p>Mbrëmë janë zhvilluar 11 ndeshje në ligën më të fortë të basketbollit në botë.
 			Los Angeles Lakers ka shënuar fitoren e radhës në këtë sezon në NBA pas një kampionati të dështuar vitin e kaluar.
 			 </p>
@@ -140,8 +140,8 @@ include('header.php');
 
 			<div class="dk22">
 				<h3>Fitore të mëdha të LA Lakers dhe Dallasit, Bostoni thyen rekord historik ndaj Chicagos</h3>
-	 			<p>Los Angeles Lakers ka triumfuar në udhëtim te Memphis Grizzlies me rezultat 111-99 duke treguar fuqinë e vet.
-	 			LeBron James ishte më i miri me 20 pikë, tetë kërcime dhe 9 asistime, i ndjekur nga Kyle Kuzma me 20 pikë e nëntë kërcime.
+	 			<p><?php echo substr("Los Angeles Lakers ka triumfuar në udhëtim te Memphis Grizzlies me rezultat 111-99 duke treguar fuqinë e vet.
+	 			LeBron James ishte më i miri me 20 pikë, tetë kërcime dhe 9 asistime, i ndjekur nga Kyle Kuzma me 20 pikë e nëntë kërcime.",12)?>
 
 				</p>
 	 			<img src="foto/basket2.jpg">
