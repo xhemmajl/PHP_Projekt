@@ -9,6 +9,23 @@ include('header.php');
 <head>
 <title> Lajme Sporti - Futboll </title>
 <link rel="stylesheet" href="fbstyle.css">
+<script>
+	function showHint(str) {
+    if (str.length == 0) { 
+        document.getElementById("txtHint").innerHTML = "";
+        return;
+    } else {
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                document.getElementById("txtHint").innerHTML = this.responseText;
+            }
+        }
+        xmlhttp.open("GET", "gethint.php?q="+str, true);
+        xmlhttp.send();
+    }
+}
+</script>
 <style>
 #more {display: none;
 }
@@ -510,6 +527,12 @@ Mbrojtësi tani ka 19 tituj në emrin e tij, duke përfshirë dy
 	</div>
 
 </div>
+<p><b>Who is your favorite player?</b></p>
+<form> 
+Name: <input type="text" onkeyup="showHint(this.value)">
+</form>
+
+<p>Suggestions: <span id="txtHint"></span></p>ss
 <?php
 include('footer.php');
 ?>
