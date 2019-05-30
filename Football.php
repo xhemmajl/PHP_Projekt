@@ -532,7 +532,7 @@ Mbrojtësi tani ka 19 tituj në emrin e tij, duke përfshirë dy
 Name: <input type="text" onkeyup="showHint(this.value)">
 </form>
 
-<p>Suggestions: <span id="txtHint"></span></p>ss
+<p>Suggestions: <span id="txtHint"></span></p>
 <?php
 include('footer.php');
 ?>
