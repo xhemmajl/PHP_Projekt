@@ -54,3 +54,12 @@ header('location:login.php');
 
 ?>
 <html>
+ <head>
+    </head>
+    <body>
+      <form method="post">
+        Email: <input type="email" name="email">
+        <input type="submit" class="button" value="Dergo">
+      </form>
+    </body>
+    </html>  
