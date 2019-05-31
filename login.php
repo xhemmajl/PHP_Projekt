@@ -55,8 +55,8 @@ border:1px solid gray;
 .btn{
 padding:10px;
 font-size:15px;
-color:black;
-background:rgba(0, 255, 0, 0.1);
+color:white;
+background:rgba(0, 0, 0, 0.1);
 border-radius:5px;
 
 }
@@ -94,16 +94,16 @@ text-decoration:none;
 <!-- paraqit gabimet-->
 <?php include('gabimet.php')?>
 <div class="input-group">
-<label>Username</label>
+<label>Perdoruesi</label>
 <input type="text" name="username" value="<?php echo $emri?>"/>
 </div>
 <div class="input-group">
-<label>Password</label>
+<label>Fjalekalimi</label>
 <input type="password" name="password" value="<?php echo $fjalkalimi?>"/>
 </div>
 
 <div class="input-group">
-<button type="submit" name="login" class="btn"><strong>Login</strong></button>
+<button type="submit" name="login" class="btn"><strong>Kyçu</strong></button>
 </div>
 <p>
 Nuk keni një llogari?<a href="register.php">Regjistrohuni</a>
