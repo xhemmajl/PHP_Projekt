@@ -48,6 +48,9 @@ header('location:login.php');
 
 
   }
+  if($count==0) {
+         echo '<script>alert("Ky email nuk ekziston si perdorues!")</script>';
+}
 }
 
 
