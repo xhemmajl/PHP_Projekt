@@ -29,7 +29,10 @@ width:30%;
 margin:0px auto;
 padding:20px;
 border:1px solid rgba(0,255,0,0.1);
-background:white;
+background-color:rgba(0,0,0,0.7);
+font-weight:bold;
+font-size:16px;
+color:white;
 border-radius:0px 0px 10px 10px;
 }
 
