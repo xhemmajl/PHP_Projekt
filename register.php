@@ -82,15 +82,15 @@ color:red;
 <!-- paraqit gabimet-->
 <?php include('gabimet.php')?>
 <div class="input-group">
-<label>Username</label>
+<label>Perdoruesi</label>
 <input type="text" name="username" value="<?php echo $perdoruesi?>"/>
 </div>
 <div class="input-group">
-<label>Firstname</label>
+<label>Emri</label>
 <input type="text" name="firstname" value="<?php echo $emri?>"/>
 </div>
 <div class="input-group">
-<label>Lastname</label>
+<label>Mbiemri</label>
 <input type="text" name="lastname" value="<?php echo $mbiemri?>"/>
 </div>
 <div class="input-group">
@@ -98,18 +98,18 @@ color:red;
 <input type="text" name="email" value="<?php echo $imella?>"/>
 </div>
 <div class="input-group">
-<label>Password</label>
+<label>Fjalekalimi</label>
 <input type="password" name="password" value="<?php echo $fjalkalimi?>"/>
 </div>
 <div class="input-group"> 
-<label>Confirm Password</label>
+<label>Konfirmo Fjalekalimin</label>
 <input type="password" name="confirmP" value="<?php echo $fjalkalimi1?>"/>
 </div>
 <div class="input-group">
-<button type="submit" name="register" class="btn">Register</button>
+<button type="submit" name="register" class="btn">Regjistrohu</button>
 </div>
 <p>
-Already a member?<a href="login.php">Log in</a>
+Keni nje llogari?<a href="login.php">Kyçu</a>
 </p>
 </form>
 
