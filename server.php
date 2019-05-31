@@ -88,6 +88,27 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
 	{
 		array_push($errors,"Dy fjalëkalimet nuk përputhen");
 	}
+	$query="select * from user where username='$perdoruesi'";
+
+	if($result=mysqli_query($connect,$query)){
+
+	if(mysqli_num_rows($result)>0){
+
+	array_push($errors,"Ky emër i përdoruesit ekziston, ju lutem zgjedheni një tjeter!");
+
+	}
+}
+$query2="select * from user where email='$imella'";
+
+	if($result2=mysqli_query($connect,$query2)){
+
+	if(mysqli_num_rows($result2)>0){
+
+	array_push($errors,"Ky email ekziston, ju lutem zgjedheni një tjeter!");
+
+	}
+}
+
 	
 	if(count($errors)==0)
 	{
