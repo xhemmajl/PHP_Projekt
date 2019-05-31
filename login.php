@@ -6,13 +6,15 @@ include('server.php');
 <head>
 <style>
 body{
-	background-image: url(bck.jpg);	
+	background-image: url(foto/wall.jpg);
+	background-position: fixed;
+	background-size: cover;
 }
 .header{
 width:30%;
 margin:50px auto 0px;
-color:black;
-background-color: rgba(0, 255, 0, 0.1);
+color:white;
+background-color: rgba(0, 0, 0, 0.7);
 text-align:center;
 border:1px solid rgba(0, 255, 0, 0.1);
 border-radius:10px 10px 0px 0px;
