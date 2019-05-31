@@ -29,3 +29,28 @@ $mail = new PHPMailer();
    $mail ->Subject = 'Kerkese per fjalekalimin.';
    $mail ->Body = "<h4>Pershendetje {$row['firstname']} {$row['lastname']}</h4><br><h4>Fjalekalimi yt është: {$row['password']}</h4><br><br><h4>Shpresojmë të ju kemi ndihmuar!</h4>";
    $mail ->AddAddress($mailto);
+   if(!$mail->Send())
+   {
+
+       echo '<script>alert("Emaili juaj nuk është dërguar!")</script>';
+       sleep(3);
+      
+
+   }
+   
+   else
+   {
+    echo '<script>alert("Emaili juaj është dërguar, ju faleminderit!")</script>';   }
+}
+
+header('location:login.php');
+
+
+
+  }
+}
+
+
+
+?>
+<html>
