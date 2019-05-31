@@ -101,8 +101,9 @@ text-decoration:none;
 <button type="submit" name="login" class="btn"><strong>Login</strong></button>
 </div>
 <p>
-Not yet a member?<a href="register.php">Sign up</a>
+Nuk keni një llogari?<a href="register.php">Regjistrohuni</a>
 </p>
+<p><a href="reset.php">Keni harruar fjalëkalimin?</a></p>
 </form>
 </body>
 </html>
