@@ -21,7 +21,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
 	
 	if(empty($perdoruesi))
 	{
-		array_push($errors,"Username is required!");
+		array_push($errors,"Ju nuk keni shënuar emrin e përdoruesit!");
 	}
 	else 
 	{
@@ -29,12 +29,12 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
 	
 		if(!preg_match("/^[a-zA-Z0-9_\-\.]*$/",$perdoruesi))
 		{
-			array_push($errors,"Only letters are allowed!");
+			array_push($errors,"Nuk janë të lejuara simbolet!");
 		}
 	}
 	if(empty($emri))
 	{
-		array_push($errors,"Firstname is required!");
+		array_push($errors,"Ju nuk keni shënuar emrin!");
 	}
 	else 
 	{
@@ -42,12 +42,12 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
 	
 		if(!preg_match("/^[a-zA-Z]*$/",$emri))
 		{
-			array_push($errors,"Only letters are allowed!");
+			array_push($errors,"Nuk janë të lejuara simbolet!");
 		}
 	}
 	if(empty($mbiemri))
 	{
-		array_push($errors,"Lastname is required!");
+		array_push($errors,"Ju nuk keni shënuar mbiemrin!");
 	}
 	else 
 	{
@@ -55,12 +55,12 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
 	
 		if(!preg_match("/^[a-zA-Z]*$/",$mbiemri))
 		{
-			array_push($errors,"Only letters are allowed!");
+			array_push($errors,"Nuk janë të lejuara simbolet!");
 		}
 	}
 	if(empty($imella))
 	{
-		array_push($errors,"Email is required!");
+		array_push($errors,"Ju nuk keni shënuar email!");
 	}
 	else 
 	{
@@ -68,12 +68,12 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
 	
 		if(!preg_match("/[a-zA-Z0-9_\-\.]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/",$imella))
 		{
-			array_push($errors,"Invalid email format!");
+			array_push($errors,"Formati i email addresses nuk është në rregull!");
 		}
 	}
 	if(empty($fjalkalimi))
 	{
-		array_push($errors,"Password is required!");
+		array_push($errors,"Ju nuk keni shënuar fjalëkalimin!");
 	}
 	else
 	{
@@ -86,7 +86,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
 	
 	if($fjalkalimi!=$fjalkalimi1)
 	{
-		array_push($errors,"The two passwords do not match");
+		array_push($errors,"Dy fjalëkalimet nuk përputhen");
 	}
 	
 	if(count($errors)==0)
@@ -126,21 +126,21 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
 	
 	if(empty($perdoruesi))
 	{
-		array_push($errors,"Username is required!");
+		array_push($errors,"Ju nuk keni shënuar emrin e përdoruesit!");
 	}else 
 	{
 		$perdoruesi=test($perdoruesi);
 	
 		if(!preg_match("/^[a-zA-Z]*$/",$perdoruesi))
 		{
-			array_push($errors,"Only letters are allowed!");
+			array_push($errors,"Nuk janë të lejuara simbolet!");
 		}
 	}
 	
 	
 	if(empty($fjalkalimi))
 	{
-		array_push($errors,"Password is required!");
+		array_push($errors,"Ju nuk keni shënuar fjalëkalimin!");
 	}
 	else
 	{
@@ -173,7 +173,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
 
 		}
 		else{
-			array_push($errors,"Username or Password is wrong!");
+			array_push($errors,"Emri i Përdoruesit ose fjalëkalimi është gabim!");
 			
 			
 			
