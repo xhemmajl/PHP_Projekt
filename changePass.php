@@ -135,3 +135,38 @@ display:block;
 text-align:left;
 margin:3px;
 }
+.input-group input{
+height:30px;
+width:93%;
+padding:5px 10px;
+font-size:16px;
+border-radius:5px;
+border:1px solid gray;
+}
+.btn{
+padding:10px;
+font-size:15px;
+color:white;
+background:rgba(0, 0, 0, 0.1);
+border-radius:5px;
+
+}
+.btn2{
+padding:10px;
+margin-left:320px;
+font-size:15px;
+color:white;
+background:rgba(0, 0, 0, 0.1);
+border-radius:5px;
+
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+
+.error{
+	
+	color:red;
+}	
+</style>
