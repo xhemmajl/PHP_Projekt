@@ -221,9 +221,11 @@ function myFunction8() {
 			<p class="f2 heading">Manchester United</p>
 			</div>
 			<div class="t1-content">
-			<h1>Unitedi fiton lehtësisht ndaj Fulhamit, gati për derbin ndaj Liverpoolit </h1>
+			<h1>
+				<?php include('title.php'); ?>
+			</h1>
 			<p> 
-				Manchester Unitedi i është kthyer fitoreve në Ligën Premier,
+				<?php echo "Manchester Unitedi i është kthyer fitoreve në Ligën Premier,
 				 duke fituar kështu ndaj Fulhamit me rezultat 4-1.
 }
 
@@ -241,7 +243,8 @@ Për ta bërë këtë fitore edhe më të bukur,
 
 
 Pas kësaj fitore Djajtë e Kuq renditen në vendin e gjashtë me 26 pikë,
- kurse Fulhami i fundit në tabelë me vetëm nëntë pikë.</p>
+ kurse Fulhami i fundit në tabelë me vetëm nëntë pikë."; ?>
+ </p>
  </div>
 	</div>
 	<div class="t1-item">
@@ -252,8 +255,8 @@ Pas kësaj fitore Djajtë e Kuq renditen në vendin e gjashtë me 26 pikë,
 		<div class="t1-content">
 			<h1>
 				Barcelona shkatërron Espanyolin në derbin katalunas, Messi shkëlqen me dy gola nga gjuajtja e lirë </h1>
-			<p> 
-				Barcelona ka fituar në udhëtim derbin katalunas
+			<p> <?php 
+			echo "Barcelona ka fituar në udhëtim derbin katalunas
 				 ndaj Espanyolit me rezultat të thellë 4-0.
 				Goli i parë i ndeshjes erdhi në minutën e 17-të të ndeshjes me Lionel Messin, 
 				i cili shënoi për 1-0 një gol të bukur nga gjuajtja e lirë nga rreth 25 metra.
@@ -261,7 +264,8 @@ Pas kësaj fitore Djajtë e Kuq renditen në vendin e gjashtë me 26 pikë,
 Për epërsinë 2-0 u përkujdes Ousmane Dembele (26′) pas asistimit të Messit,
  ndërsa Luis Suarez (45′) shënoi për thellimin e epërsinë në 3-0.
 Në këtë pjesë ishte përsëri ylli argjentinas Messi, i cili shkëlqeu duke shënuar golin e dytë nga gjuajtja e lirë 
-pasi në minutën e 65-të shënoi për 0-4 dhe vulosi rezultatin përfundimtar.</p>
+pasi në minutën e 65-të shënoi për 0-4 dhe vulosi rezultatin përfundimtar."; ?>
+</p>
 		</div>
 </div>
 <div class="t1-item">
@@ -272,7 +276,8 @@ pasi në minutën e 65-të shënoi për 0-4 dhe vulosi rezultatin përfundimtar.
 		<div class="t1-content">
 			<h1> Hazard ende beson se Chelsea është në garë për titull </h1>
 			<p> 
-				Eden Hazard këmbëngul se ende janë në garën
+				<?php 
+				echo 'Eden Hazard këmbëngul se ende janë në garën
 				 për titullin e Premier Ligës.
 Chelsea ka triumfuar gjatë ditës së djeshme
  kundër Brightonit me rezultat 2-1 në kuadër të Ligës Premier.
@@ -286,7 +291,7 @@ Chelsea ka triumfuar gjatë ditës së djeshme
 
 “Ne e menaxhuam lojën mirë. Ne duam të jemi në krye të renditjes në fund të sezonit,
  ne e dimë se Man City dhe Liverpool janë skuadra të mira,
-  por nuk duam që boshllëku të jetë i madh”.
+  por nuk duam që boshllëku të jetë i madh”.';?>
  </p>
 		</div>
 	</div>
@@ -297,8 +302,9 @@ Chelsea ka triumfuar gjatë ditës së djeshme
 		</div>
 		<div class="t1-content">
 			<h1> Roma dhe Interi ndajnë pikët në kryendeshjen e javës </h1>
-			<p> 
-				Ndeshja në mes Romës dhe Interit u mbyll me rezultat 2-2.
+			<p> <?php 
+				echo 
+				"Ndeshja në mes Romës dhe Interit u mbyll me rezultat 2-2.
 				Rezultati u zhbllokua në minutën e 37-të, kur pas një harkimi të Danilo D’Ambrosios në zonë,
 				 Keita Balde goditi me të parën për ta futur topin në rrjetë.
 
@@ -309,7 +315,7 @@ Cengiz Under realizoi një gol shumë të bukur për t’i barazuar shifrat.
 Pas një harkimi nga këndi të Marcelo Brozovic,
  kapiteni Mauro Icardi kërceu më lartë për të shënuar me kokë (66′) dhe për t’ia kthyer Interit avantazhin.
  Porse, Brozovic e ndali topin me dorë në zonë dhe penalltinë
-  e akorduar e konvertoi në gol Aleksandar Kolarov (74′).</p>
+  e akorduar e konvertoi në gol Aleksandar Kolarov (74′)."; ?></p>
 		</div>
 	</div>
 
@@ -320,7 +326,8 @@ Pas një harkimi nga këndi të Marcelo Brozovic,
 <div class="RreshtiLajmev">
 	<div class="Lajmi1">
 		<h3>Messi merr Këpucën e Artë.</h3>
-		<p>Sot (e martë) ishte dita kur Lionel Messi do të pranonte edhe zyrtarisht Këpucën e Artë,
+		<p>
+		Sot (e martë) ishte dita kur Lionel Messi do të pranonte edhe zyrtarisht Këpucën e Artë,
 		 si golashënuesi më i mirë në Evropës për sezonin 2017/18.<span id="dots">...</span><span id="more">
 
 Argjentinasi shënoi 34 gola në sezonin e fundit në La Liga,
@@ -332,8 +339,8 @@ Argjentinasi shënoi 34 gola në sezonin e fundit në La Liga,
 “Nuk i kam pritur gjithë këtu kur fillova, ëndrra ime ishte të isha një profesionit
  dhe të triumfoja në futboll. Jam në ekipin më të mirë në botë dhe kam bashkëlojtarët më të mirë në botë
   dhe kjo i bën gjërat më të lehta që unë t’i fitojë këto çmime”, ka thënë Messi pasi pranoi çmimin.
-  
-		</span></p>
+		</span>
+ </p>
 		<button onclick="myFunction()" id="myBtn">Lexo më shumë</button>
 		
 		<div class="imazhi">
@@ -522,11 +529,15 @@ Mbrojtësi tani ka 19 tituj në emrin e tij, duke përfshirë dy
 		</span></p>
 		<button onclick="myFunction8()" id="myBtn8">Lexo më shumë</button>
 		<div class="imazhi">
-			<img src="foto/lajmi9.jpg">
+			<?php
+			$img='foto/lajmi9.jpg';
+			?>
+			<img src="<?php echo $img;?>">
 		</div>
 	</div>
 
 </div>
+
 <p><b>Who is your favorite player?</b></p>
 <form> 
 Name: <input type="text" onkeyup="showHint(this.value)">
