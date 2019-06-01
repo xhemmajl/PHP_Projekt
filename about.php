@@ -185,24 +185,32 @@ article#main-col{
 		<article id=main-col>
 			<h1 class="page-title">Rreth nesh</h1>
 			<p>
-			-Kjo eshte motoja jone qe mundohemi ti permbahemi me çdo kusht<br>
+				<?php
+			echo "-Kjo eshte motoja jone qe mundohemi ti permbahemi me çdo kusht"; echo "<br>";
 
--Jemi 2.3k puntor te cilet punojne me angazhim te madh per ti ofruar cdo lajm qe ndodh ne Kosove rreth sportit dhe ane e mbane botes<br>
 
--Zyrat tona mund ti gjeni ne cdo qytet te Kosoves<br>
-
--Zyrat tona gjenden edhe jashte Kosoves, ne Maqedoni, Shqiperi ,Austri, Malt,...,etj<br>
-
--Per ne eshte misioni jone qe tju mbajme te informuar 24/7<br>
-
--Ekzistojme qe nga viti 2020 e deri me sot, fal jush<br>
-
--Çdo gje funksionon ne menyre te perkryer<br>
-
-	<br>	</p>
+echo "-Jemi 2.3k puntor te cilet punojne me angazhim te madh per ti ofruar cdo lajm qe ndodh ne Kosove rreth sportit dhe ane e mbane botes";
+echo "<br>";
+echo "-Zyrat tona mund ti gjeni ne cdo qytet te Kosoves";
+echo "<br>";
+echo "-Zyrat tona gjenden edhe jashte Kosoves, ne Maqedoni, Shqiperi ,Austri, Malt,...,etj";
+echo "<br>";
+echo "-Per ne eshte misioni jone qe tju mbajme te informuar 24/7";
+echo "<br>";
+echo "-Ekzistojme qe nga viti 2020 e deri me sot, fal jush";
+echo "<br>";
+echo "-Çdo gje funksionon ne menyre te perkryer";
+	?>
+</p>
+		
 			<p class="dark">
-			-Orari i punes ne zyra 8:00-16:00<br>
-			-Faleminderit per leximin
+	<?php
+		define("GREETING", "-Orari i punes ne zyra 8:00-16:00");
+		echo GREETING;
+		echo "<br>";
+		define("Thanks", "-Faleminderit per lexim");
+		echo Thanks;
+		?> 
 			</p>
 		</article>
 		<aside id="sidebar">
