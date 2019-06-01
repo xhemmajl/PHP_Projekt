@@ -60,9 +60,18 @@ header('location:login.php');
  <head>
     </head>
     <body>
+      <div class="header">
+  <h2>Rikthe Fjalekalimin</h2>
+</div>
       <form method="post">
-        Email: <input type="email" name="email">
-        <input type="submit" class="button" value="Dergo">
+        <div class="input-group">
+        <label>Email</label>
+        <input type="email" name="email">
+        </div>
+        <div class="input-group">
+        <button type="submit" name="nderro" class="btn">Dergo</button>
+        <button type="submit" name="login" class="btn2"><a href="login.php">Kyçu</a></button>
+</div>
       </form>
     </body>
     </html>  
