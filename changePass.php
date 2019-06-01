@@ -89,3 +89,49 @@ if($_POST){
 		$_SESSION["cPassword"]=$cPassword;
 }
 }
+?>
+
+
+
+
+<html>
+<head>
+	<style>
+
+.header{
+width:30%;
+margin:50px auto 0px;
+color:white;
+background-color: rgba(0, 0, 0, 0.7);
+text-align:center;
+border:1px solid rgba(0, 255, 0, 0.1);
+border-radius:10px 10px 0px 0px;
+padding:20px;
+
+
+
+
+}
+body{
+	background-image: url(foto/wall.jpg);
+	background-size: cover;
+}
+form{
+width:30%;
+margin:0px auto;
+font-weight: bold;
+color:white;
+font-size:16px;
+padding:20px;
+border:1px solid rgba(0,255,0,0.1);
+background-color:rgba(0,0,0,0.7);
+border-radius:0px 0px 10px 10px;
+}
+.input-group{
+margin:10px 0px 10px 0px;
+}
+.input-group label{
+display:block;
+text-align:left;
+margin:3px;
+}
