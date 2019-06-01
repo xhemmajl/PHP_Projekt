@@ -58,11 +58,86 @@ header('location:login.php');
 ?>
 <html>
  <head>
+   <style>
+  .header{
+width:30%;
+margin:50px auto 0px;
+color:white;
+background-color: rgba(0, 0, 0, 0.7);
+text-align:center;
+border:1px solid rgba(0, 255, 0, 0.1);
+border-radius:10px 10px 0px 0px;
+padding:20px;
+}
+body{
+  background-image: url(foto/wall.jpg);
+  background-size: cover;
+}
+form{
+width:30%;
+margin:0px auto;
+font-weight: bold;
+color:white;
+font-size:16px;
+padding:20px;
+border:1px solid rgba(0,255,0,0.1);
+background-color:rgba(0,0,0,0.7);
+border-radius:0px 0px 10px 10px;
+}
+     .input-group{
+margin:10px 0px 10px 0px;
+}
+.input-group label{
+display:block;
+text-align:left;
+margin:3px;
+}
+.input-group input{
+height:30px;
+width:93%;
+padding:5px 10px;
+font-size:16px;
+border-radius:5px;
+border:1px solid gray;
+}
+     .btn{
+padding:10px;
+font-size:15px;
+color:white;
+background:rgba(0, 0, 0, 0.1);
+border-radius:5px;
+
+}
+.btn2{
+padding:10px;
+margin-left:400px;
+font-size:15px;
+color:white;
+background:rgba(0, 0, 0, 0.1);
+border-radius:5px;
+
+}
+a{
+  text-decoration: none;
+  color:white;
+}
+
+
+</style>
     </head>
     <body>
+      <div class="header">
+  <h2>Rikthe Fjalekalimin</h2>
+</div>
       <form method="post">
-        Email: <input type="email" name="email">
-        <input type="submit" class="button" value="Dergo">
+        <div class="input-group">
+        <label>Email</label>
+        <input type="email" name="email">
+        </div>
+        <div class="input-group">
+        <button type="submit" name="nderro" class="btn">Dergo</button>
+        <button type="submit" name="login" class="btn2"><a href="login.php">Kyçu</a></button>
+</div>
       </form>
     </body>
     </html>  
