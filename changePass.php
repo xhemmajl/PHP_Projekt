@@ -181,3 +181,24 @@ a{
 <form method="post"> 
 <!-- paraqit gabimet-->
 <?php include('gabimet.php')?>
+<div class="input-group">
+<label>Perdoruesi</label>
+<input type="text" name="username">
+</div>
+<div class="input-group">
+<label>Fjalekalimi Aktual</label>
+<input type="password" name="password">
+</div>
+<div class="input-group">
+<label>Fjalekalimi i ri</label>
+<input type="password" name="newPassword">
+</div>
+<div class="input-group">
+<label>Konfirmo fjalekalimin e ri</label>
+<input type="password" name="cPassword">
+</div>
+<div class="input-group">
+<button type="submit" name="register" class="btn">Nderro Fjalekalimin</button>
+<button type="submit" name="login" class="btn2"><a href="login.php">Kyçu</a></button>
+</div>
+</form>
