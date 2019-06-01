@@ -170,3 +170,14 @@ a{
 	color:red;
 }	
 </style>
+</head>
+	<body>
+
+<div class="header">
+	<h2>Nderro Fjalekalimin</h2>
+</div>
+
+
+<form method="post"> 
+<!-- paraqit gabimet-->
+<?php include('gabimet.php')?>
