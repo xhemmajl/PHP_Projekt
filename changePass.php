@@ -202,3 +202,6 @@ a{
 <button type="submit" name="login" class="btn2"><a href="login.php">Kyçu</a></button>
 </div>
 </form>
+		
+	</body>
+	</html>
