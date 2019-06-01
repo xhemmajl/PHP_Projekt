@@ -84,6 +84,22 @@ border:1px solid rgba(0,255,0,0.1);
 background-color:rgba(0,0,0,0.7);
 border-radius:0px 0px 10px 10px;
 }
+     .input-group{
+margin:10px 0px 10px 0px;
+}
+.input-group label{
+display:block;
+text-align:left;
+margin:3px;
+}
+.input-group input{
+height:30px;
+width:93%;
+padding:5px 10px;
+font-size:16px;
+border-radius:5px;
+border:1px solid gray;
+}
     </head>
     <body>
       <div class="header">
