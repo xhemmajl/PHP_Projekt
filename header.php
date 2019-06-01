@@ -236,6 +236,8 @@ padding:10px 20px;
 		<td align="left">
 		
 		<div id="btn1"><a id="a3" href="header.php?logout='1'">Logout</a></div>
+		<div id="btn2"><a id="a4" href="changePass.php">Nderro Fjalekalimin</a></div>
+
 		</td>
 		</tr>
 		</table>
