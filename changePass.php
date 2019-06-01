@@ -42,3 +42,50 @@ else if(!$count) {
 	echo '<script>alert("Ky perdorues nuk ekziston!")</script>';
 }
 }
+session_start();
+$errors=array();
+if($_POST){
+	if(empty($username))
+	{
+		array_push($errors,"Ju nuk keni shënuar emrin e përdoruesit!");
+	}
+	
+	
+		if(!preg_match("/^[a-zA-Z0-9_\-\.]*$/",$username))
+		{
+			array_push($errors,"Nuk janë të lejuara simbolet!");
+		}
+	
+	if(empty($password))
+	{
+		array_push($errors,"Ju nuk keni shënuar fjalekalimin aktual!");
+	}
+	
+	
+	
+	
+	if(empty($newPassword))
+	{
+		array_push($errors,"Ju nuk keni shënuar fjalekalimin e ri!");
+	}
+	
+	
+		
+	
+	if(empty($cPassword))
+	{
+		array_push($errors,"Ju nuk keni ri shënuar fjalekalimin e ri!");
+	}
+	
+	
+		
+	
+	if(count($errors)==0)
+	{
+		
+		$_SESSION["username"]=$username;
+		$_SESSION["password"]=$password;
+		$_SESSION["newPassword"]=$newPassword;
+		$_SESSION["cPassword"]=$cPassword;
+}
+}
