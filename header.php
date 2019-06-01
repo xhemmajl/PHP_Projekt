@@ -116,6 +116,15 @@ $(document).ready(function(){
 	padding:5px 10px;
 	background-color:black;
 }
+#a4{
+	margin-top:-20px;
+	padding-top:5px;
+	color:white;
+	background-color:black;
+}
+#btn2{
+	margin-top:20px;
+}
 #a3:hover{
 	color:white;
 }
