@@ -2,17 +2,17 @@
 
 class Ne {
 
-    public $deviceName,$deviceVersion;
+    public $x,$y;
     
-    public function __construct ($name,$version) {
-        $this->deviceName = $name;
-        $this->deviceVersion = $version;
+    public function __construct ($emri,$viti) {
+        $this->x = $emri;
+        $this->y = $viti;
         echo " ".__CLASS__." jemi me te miret.";
     }
 
     public function printOut () {
-        echo ' '.$this->deviceName
-            .'  '.$this->deviceVersion;
+        echo ' '.$this->x
+            .'  '.$this->y;
     }
 
 }
