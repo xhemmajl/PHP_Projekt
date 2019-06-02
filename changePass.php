@@ -199,7 +199,7 @@ a{
 </div>
 <div class="input-group">
 <button type="submit" name="register" class="btn">Nderro Fjalekalimin</button>
-<button type="submit" name="login" class="btn2"><a href="login.php">Kyçu</a></button>
+<button class="btn2"><a href="login.php">Kyçu</a></button>
 </div>
 </form>
 		
