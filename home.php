@@ -151,6 +151,7 @@ echo "Fitorja e Orlandos nga Lakers ishte e 10 këtë edicion.";
 	</div>
 
 </div>
+<?php include('class1.php'); ?>
 <?php
 include('footer.php');
 ?>
