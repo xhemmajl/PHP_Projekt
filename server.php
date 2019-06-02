@@ -18,6 +18,18 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
 	$imella=mysqli_real_escape_string($connect,$_POST['email']);
 	$fjalkalimi=mysqli_real_escape_string($connect,$_POST['password']);
 	$fjalkalimi1=mysqli_real_escape_string($connect,$_POST['confirmP']);
+	$secretKey = "6LcAsaYUAAAAAEObdRq4P_xFlsaeAcpip9wNONl_";
+	$responseKey = $_POST['g-recaptcha-response'];
+	$userIP = $_SERVER['REMOTE_ADDR'];
+	$url="https://www.google.com/recaptcha/api/siteverify?secret=$secretKey&response=$responseKey&remoteip=$userIP";
+	$response=file_get_contents($url);
+	$response=json_decode($response);
+	if($response->success)
+		echo "Verifikimi perfundoi me sukses!";
+	
+	else
+		array_push($errors,"Ju nuk jeni verifikuar!");
+	
 	
 	if(empty($perdoruesi))
 	{
