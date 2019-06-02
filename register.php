@@ -107,11 +107,13 @@ color:red;
 </div>
 <div class="input-group">
 <button type="submit" name="register" class="btn">Regjistrohu</button>
+<div class="g-recaptcha" data-sitekey="6LcAsaYUAAAAAH15kLDftSfZtPZtHHaWrXtoFXme"></div>
+
 </div>
 <p>
 Keni nje llogari?<a href="login.php">Kyçu</a>
 </p>
 </form>
-
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </body>
 </html>
