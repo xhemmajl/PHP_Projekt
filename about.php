@@ -248,7 +248,11 @@ function mUp(obj) {
 	</div>
 </section>
  </body>
+<?php
+ include('class1.php');
+  ?>
 </html>
+
 <?php
  include ('footer.php');
 
